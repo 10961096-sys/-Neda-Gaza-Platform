@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة نداء غزة | Neda Gaza Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #b30000;
+      color: #fff;
+      padding: 20px;
+      border-bottom: 5px solid #800000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+    }
+    .hero {
+      padding: 30px 15px;
+    }
+    .hero img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .donate-btn {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 15px 25px;
+      font-size: 1.2em;
+      color: #fff;
+      background: #e63946;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .donate-btn:hover {
+      background: #b22222;
+    }
+    .counter, .contact {
+      margin: 20px auto;
+      max-width: 600px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background: #222;
+      color: #fff;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>منصة نداء غزة | Neda Gaza Platform</h1>
+    <p>حملة إنسانية لدعم أهلنا في غزة</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Gaza_Skyline.jpg" alt="Gaza">
+    <p>ساهم معنا في مد يد العون لأهل غزة. كل تبرع، مهما كان صغيرًا، يصنع فرقًا كبيرًا.</p>
+    
+    <!-- ضع رابط محفظتك هنا -->
+    <a href="https://www.binance.com/en/pay" class="donate-btn" target="_blank">تبرع الآن</a>
+  </section>
+
+  <section class="counter">
+    <h2>إجمالي التبرعات</h2>
+    <p><strong id="amount">$0</strong></p>
+    <p>💡 يمكنك تحديث الرقم يدويًا من الكود أو ربطه بقاعدة بيانات لاحقًا.</p>
+  </section>
+
+  <section class="contact">
+    <h2>للتواصل</h2>
+    <p>📩 تيليجرام: <a href="https://t.me/anaaa_151" target="_blank">@anaaa_151</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 نداء غزة - جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>
+
+
